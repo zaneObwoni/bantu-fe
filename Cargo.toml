@@ -13,3 +13,7 @@ log = "0.4.16"
 wasm-bindgen-futures = "0.4.30"
 serde = { version = "1.0.48", features = ["derive"] }
 serde_json = "1.0.79"
+# for component loggin like console log
+# log = "0.4.16"
+# for rust dise logging 
+# wasm-logger = "0.2.0"

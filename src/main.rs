@@ -1,7 +1,5 @@
 extern crate reqwest_wasm;
 
-use std::borrow::Borrow;
-use yew::html::Scope;
 use yew::prelude::*;
 
 mod data;
@@ -68,7 +66,7 @@ impl Component for App {
                     <span class="font-light text-lg text-center text-gray-400"> {"Password: "} {&self.user.login.password} </span>
                 </div>
 
-                <button {onclick} class="bg-indigo-400 shadow-md h-auto w-auto pl-4 pr-4 pb-2 pt-2 rounded-md font-medium text-xl text-white hover:bg-indigo-300">{"Find date"}</button>
+                <button {onclick} class="bg-green-500 shadow-md h-auto w-auto pl-4 pr-4 pb-2 pt-2 rounded-md font-medium text-xl text-white hover:bg-indigo-300">{"Find date"}</button>
             </div>
         }
     }
